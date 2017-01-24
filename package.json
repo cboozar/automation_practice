@@ -1,0 +1,22 @@
+{
+  "name": "automation_practice",
+  "version": "1.0.0",
+  "description": "simple helloworld js app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cboozar/automation_practice.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "cb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cboozar/automation_practice/issues"
+  },
+  "homepage": "https://github.com/cboozar/automation_practice#readme"
+}
