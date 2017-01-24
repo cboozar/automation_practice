@@ -1,8 +1,8 @@
-var http = require('http')
+var app = require('express').createServer();
+app.get('/',function(req,res) {
+	res.send("Hello World");
+});
 
-http.createServer(function(req, res) {
-res.writeHead(200, {'content-type':'text/plain'});
-res.end('Hello world!');
-}).listen(80);
-
-console.log('server is up on 9001');
+app.listen(process.env.PORT || 3000,function(){
+	console.log("listening on 3000");
+});

@@ -19,4 +19,10 @@
     "url": "https://github.com/cboozar/automation_practice/issues"
   },
   "homepage": "https://github.com/cboozar/automation_practice#readme"
+  "dependencies": {
+		"express":"~2.5.8"},
+	"engines": {
+		"node": "0.8.x",
+		"npm": "1.1.x"
+	}
 }
