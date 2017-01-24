@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/cboozar/automation_practice/issues"
   },
-  "homepage": "https://github.com/cboozar/automation_practice#readme"
+  "homepage": "https://github.com/cboozar/automation_practice#readme",
   "dependencies": {
 		"express":"~2.5.8"},
 	"engines": {
