@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "6.1"
+- '6.1'
+deploy:
+  provider: heroku
+  api_key:
+    secure: CXknZppvk+3MOpkCnbIG6gZ+rBIFRqPkbUus+GYK1DIa9KMwvZZljOBNgs5Ms9QXo6QQespaSma5kW+1RVmwQ+PpIYV+g84lolFTEjKuF66xWJmfnBkbXHCFjCczPE038oEv/4GCSZ/j3fUYXPKPjzMJZavL2TsMmheKiqyaQ2pJrab3CI0RrIxGAs/Fg4N8YBJQNdyZQ25jhN8nGMfzevPm7qAGGhbPZDtfz0vLuFIaXASZNN0rSwNYWVRWYJqLwwlXbFic50/EJHsDuvf4P7X3OM/zcSoHQrpF5Ig+VLPteF+arDBY+eu3jZgsFg9vqgN/BRhwbu6xiEIaoKNkfDGJ5PUSYTHxu3LltXG52uOOuYaN/GGZCquBPIgwG2exNhO5x0WidbfZeXn8T6e9jSw+OTqcWULw4X7+O1KJSEHhxM4jnnURZ0e6xfg7wdbBoTs5eB5DAYl8eYmf/ax/9o76KuLAnvq96PCu+65YyiBkBoNlmE6DllLBgn+wRB0X0ancvtA/ZCsjF6XldZWlDTEWc0xvV0429qjxFwP2raA3wrxZDWsovpNj82Pe2xJvvA/vSu7puN/vOQsFoTmpZBEwek8pMe8FXJ68eWkui4X9jBt2pJyndC9yDCA4jFR4xWb2dAishDp/4p3h6L72AjeqggWwHPlWMZ4snZPTBns=
+  app: automation_practice
+  on:
+    repo: cboozar/automation_practice
