@@ -1,6 +1,6 @@
 var app = require('express').createServer();
 app.get('/',function(req,res) {
-	res.send("Hi Bjorn");
+	res.send("Test");
 });
 
 app.listen(process.env.PORT || 3000,function(){
